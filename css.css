@@ -1,0 +1,30 @@
+.cycle-slideshow{
+  img{
+    width:300px;
+  }
+}
+
+.slideshow-wrapper{
+  margin:0 auto;
+  width:300px;
+}
+
+#prev, #next{
+  position:relative;
+  display: block;
+  background-image: url("https://freakdesign-us.s3.amazonaws.com/shopify/temp/slider-arrows.png");
+  width: 28px;
+  height: 49px;
+}
+
+#prev{
+  top:70px;
+  left:-33px;
+  background-position: 300px -49px;
+}
+
+#next{
+  top:20px;
+  left:305px;
+  background-position: 28px -49px;
+}
