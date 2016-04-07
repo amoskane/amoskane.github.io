@@ -17,6 +17,7 @@ $(document).ready(function() {
 				}else if(data.result[0]==null){
 					$("#get-news .error").html("<span>The newsletter may not available in your area. Sorry!</span>");
 				}
+			},
 			error: function () {
 				$(".spin-mesg").remove();
 				$("#get-news").html("We can't seem to reach the newsletter signup service right now. Please try again later.");
