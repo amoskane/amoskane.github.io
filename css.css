@@ -20,13 +20,17 @@
 
 .button-primary.button-big{
     padding: 10px 26px;
-    min-width: 180px;
+    width: 180px;
     border-width: 2px;
+}
+
+.newsletter{
+  text-align: center;
 }
 
 .newsletter input{
     width: 100%;
-    height: 3em;
+    padding: 10px;
     margin: 10px 0;
 }
 
