@@ -1,12 +1,12 @@
 .header{
-  background-image: url("/static/images/business/misc/top_pattern@2x-vfl7pUTT6.png");
+  background-image: url("https://cf2.dropboxstatic.com/static/images/business/misc/top_pattern@2x-vfl7pUTT6.png");
   position: fixed;
     top: 0;
     z-index: 3;
     height: 70px;
     padding: 16px 0;
     background-color: #007ee5;
-    background-image: url("/static/images/business/misc/top_pattern-vflmwY5XG.png");
+    background-image: url("https://cf2.dropboxstatic.com/static/images/business/misc/top_pattern-vflmwY5XG.png");
     background-size: 1050px 70px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -16,7 +16,7 @@
   font-weight: 300;
   font-size: 28px;
   line-height: 44px;
-  margin: 50px auto 0;
+  margin: 120px auto 0;
   text-align: center;
 }
 
