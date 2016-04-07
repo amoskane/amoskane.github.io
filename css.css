@@ -1,3 +1,17 @@
+.header{
+  background-image: url("/static/images/business/misc/top_pattern@2x-vfl7pUTT6.png");
+  position: fixed;
+    top: 0;
+    z-index: 3;
+    height: 70px;
+    padding: 16px 0;
+    background-color: #007ee5;
+    background-image: url("/static/images/business/misc/top_pattern-vflmwY5XG.png");
+    background-size: 1050px 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .newsletter__title{
   font-weight: 300;
   font-size: 28px;
@@ -24,7 +38,7 @@
     border-width: 2px;
 }
 
-.newsletter{
+.newsletter__form{
   text-align: center;
 }
 
