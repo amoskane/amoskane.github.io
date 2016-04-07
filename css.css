@@ -1,28 +1,7 @@
-.cycle-slideshow img{
-    width:300px;
-}
-
-.slideshow-wrapper{
-  margin:0 auto;
-  width:300px;
-}
-
-#prev, #next{
-  position:relative;
-  display: block;
-  background-image: url("https://freakdesign-us.s3.amazonaws.com/shopify/temp/slider-arrows.png");
-  width: 28px;
-  height: 49px;
-}
-
-#prev {
-    top: -120px;
-    left: -47px;
-  background-position: 300px -49px;
-}
-
-#next{
-  top: -170px;
-  left: 320px;
-  background-position: 28px -49px;
+.newsletter__title{
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 44px;
+  margin: 12px auto 2px;
+  text-align: center;
 }
