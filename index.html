@@ -6,16 +6,18 @@
 <link rel="stylesheet" type="text/css" href="https://cf.dropboxstatic.com/static/css/business/base-vflUiNBuo.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700&subset=latin,latin-ext">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:500">
+<script type="text/javascript" src="makeitwork.js" />
 <body class="grid">
 	<div class="header grid__item one-whole"></div>
 	<div class="content grid__item one-whole grid">
 		<div class="grid--center newsletter">
 			<h1 class="newsletter__title">Get the best newsletter on the internet</h1>
-			<form class="js-submit grid__item one-third newsletter__form">
+			<form id="get-news" class="grid__item one-third newsletter__form">
 				<div class="form__errors"></div>
 				<input name="name" placeholder="name"/>
 				<input name="email" placeholder="email"/>
-				<input type="submit" class="button-primary button-big"/>
+				<input type="submit" id="js-submit" class="button-primary button-big"/>
+				<div class="spinner"></div>
 			</form>
 		</div>
 	</div>
