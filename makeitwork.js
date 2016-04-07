@@ -11,11 +11,11 @@ $(document).ready(function() {
 			success: function (data) {
 				$(".spin-mesg").remove();
 				if(data.message=="The Exception is name is Null or Empty"){
-					$("#get-news .error").html("<span>Please enter a name.</span>");
+					$(".form__errors").html("<span>Please enter a name.</span>");
 				}else if(data.message=="The Exception is email is Null or Empty"){
-					$("#get-news .error").html("<span>Please enter an email.</span>");
+					$(".form__errors").html("<span>Please enter an email.</span>");
 				}else if(data.result[0]==null){
-					$("#get-news .error").html("<span>The newsletter may not available in your area. Sorry!</span>");
+					$(".form__errors").html("<span>The newsletter may not available in your area. Sorry!</span>");
 				}
 			},
 			error: function () {
