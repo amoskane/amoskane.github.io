@@ -6,9 +6,7 @@ $(document).ready(function() {
 		$.ajax({
 			url: '../DROPBOX_NEWSLETTER_SERVICE',
 			timeout: 7000,
-			data: {
-	    		 $("#get-news").serialize()
-			},
+			data: $("#get-news").serialize(),
 			dataType: 'json',
 			success: function (data) {
 				$(".spin-mesg").remove();
