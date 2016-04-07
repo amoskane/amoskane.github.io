@@ -38,7 +38,12 @@
     border-width: 2px;
 }
 
+
+/*not specific enough
 .newsletter__form{
+  text-align: center;
+}*/
+#get-news{
   text-align: center;
 }
 
