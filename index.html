@@ -2,19 +2,20 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="grid-sass-compiled.css">
 <link rel="stylesheet" type="text/css" href="https://cf.dropboxstatic.com/static/css/business/base-vflUiNBuo.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700&subset=latin,latin-ext">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:500">
-<body>
-	<div class="header"></div>
-	<div class="content">
-		<form class="js-submit">
+<body class="grid">
+	<div class="header grid__item one-whole"></div>
+	<div class="content grid__item grid--center">
+		<form class="js-submit grid__item one-third">
 			<div class="form__errors"></div>
 			<input name="name" placeholder="name"/>
 			<input name="email" placeholder="email"/>
 			<input type="submit"/>
 		</form>
 	</div>
-	<div class="footer"></div>
+	<div class="footer grid__item one-whole"></div>
 </body>
 </html>
