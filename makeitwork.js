@@ -57,10 +57,10 @@ function getPosition(el) {
 }
 
 $("body").click(function(e)  {
-//var el = document.querySelector("body");
-var position = getPosition(el);
-alert("The click was located at: " + position.x + ", " + position.y);
-
-console.log("x is "+x",y is "+y);
+	//var el = document.querySelector("body");
+	var position = getPosition(el);
+	alert("The click was located at: " + position.x + ", " + position.y);
+	console.log("x is "+x",y is "+y);
+}
 
 });
