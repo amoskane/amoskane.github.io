@@ -56,9 +56,10 @@ function getPosition(el) {
   };
 }
 
-var el = document.querySelector("body");
+$("body").click(function(e)  {
+//var el = document.querySelector("body");
 var position = getPosition(el);
-alert("The image is located at: " + position.x + ", " + position.y);
+alert("The click was located at: " + position.x + ", " + position.y);
 
 console.log("x is "+x",y is "+y);
 
