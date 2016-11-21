@@ -50,11 +50,16 @@ function getPosition(el) {
  
     el = el.offsetParent;
   }
-  console.log("x is "+x",y is "+y);
   return {
     x: xPosition,
     y: yPosition
   };
 }
+
+var el = document.querySelector("body");
+var position = getPosition(el);
+alert("The image is located at: " + position.x + ", " + position.y);
+
+console.log("x is "+x",y is "+y);
 
 });
